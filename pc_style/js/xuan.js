@@ -11,5 +11,6 @@ $(function(){
 	//做二级菜单
 	$(".tp_list").on("click","h3",function(){
 		$(this).next().toggleClass("tp_hide");
+		
 	})
 })
