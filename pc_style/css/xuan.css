@@ -1,0 +1,420 @@
+@charset "UTF-8";
+/* line 3, xuan.scss */
+html {
+  font-family: Micrsoft YaHei, Helvetica, STHeiTi, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 8, xuan.scss */
+html, body {
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 12, xuan.scss */
+html, body, div, object, iframe, applet, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, address, dl, dt, dd, ol, ul, li, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video, progress {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline; }
+
+/* line 18, xuan.scss */
+a {
+  text-decoration: none;
+  -webkit-touch-callout: none;
+  background-color: transparent; }
+
+/* line 23, xuan.scss */
+li {
+  list-style: none; }
+
+/* line 26, xuan.scss */
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 29, xuan.scss */
+audio, canvas, progress, video {
+  display: inline-block; }
+
+/* line 32, xuan.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 36, xuan.scss */
+[hidden], template {
+  display: none; }
+
+/* line 39, xuan.scss */
+a:active, a:hover {
+  outline: 0; }
+
+/* line 42, xuan.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 45, xuan.scss */
+b, strong {
+  font-weight: bold; }
+
+/* line 48, xuan.scss */
+dfn {
+  font-style: italic; }
+
+/* line 51, xuan.scss */
+h1 {
+  font-size: 2em;
+  margin: .67em 0; }
+
+/* line 55, xuan.scss */
+small {
+  font-size: 80%; }
+
+/* line 58, xuan.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 64, xuan.scss */
+sup {
+  top: -0.5em; }
+
+/* line 67, xuan.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 70, xuan.scss */
+img {
+  border: 0;
+  -webkit-touch-callout: none; }
+
+/* line 74, xuan.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 77, xuan.scss */
+figure {
+  margin: 1em 40px; }
+
+/* line 80, xuan.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/* line 85, xuan.scss */
+pre {
+  overflow: auto; }
+
+/* line 88, xuan.scss */
+code, kbd, pre, samp {
+  font-family: monospace,monospace;
+  font-size: 1em; }
+
+/* line 92, xuan.scss */
+a, button, input, optgroup, select, textarea {
+  -webkit-tap-highlight-color: transparent; }
+
+/* line 95, xuan.scss */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  -webkit-appearance: none;
+  outline: none;
+  line-height: normal; }
+
+/* line 103, xuan.scss */
+button {
+  overflow: visible; }
+
+/* line 106, xuan.scss */
+button, select {
+  text-transform: none; }
+
+/* line 109, xuan.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 113, xuan.scss */
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+/* line 116, xuan.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 120, xuan.scss */
+input {
+  line-height: normal; }
+
+/* line 123, xuan.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 127, xuan.scss */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/* line 130, xuan.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+/* line 136, xuan.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 139, xuan.scss */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+/* line 144, xuan.scss */
+legend {
+  border: 0;
+  padding: 0; }
+
+/* line 148, xuan.scss */
+textarea {
+  overflow: auto; }
+
+/* line 151, xuan.scss */
+optgroup {
+  font-weight: bold; }
+
+/* line 154, xuan.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 158, xuan.scss */
+td, th {
+  padding: 0; }
+
+/* line 161, xuan.scss */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box; }
+
+/* line 164, xuan.scss */
+input {
+  color: #515151; }
+
+/* line 167, xuan.scss */
+html {
+  background: url(../img/bj.jpg) no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: 100%; }
+
+/* line 174, xuan.scss */
+body {
+  width: 100%;
+  height: 100%;
+  background: url(../img/map.png) no-repeat 50% 50%;
+  background-size: 50%; }
+
+/* line 182, xuan.scss */
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* .map{
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+  } */ }
+
+/*   nav  */
+/* line 198, xuan.scss */
+.nav {
+  width: 100%;
+  height: 41px;
+  margin: 0 auto; }
+  /* line 204, xuan.scss */
+  .nav .nav_ul {
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    padding-left: 50px; }
+    /* line 210, xuan.scss */
+    .nav .nav_ul li {
+      float: left;
+      width: 9%;
+      color: #fff;
+      font-size: 12px;
+      margin-right: 5px;
+      white-space: nowrap;
+      text-align: center;
+      line-height: 41px;
+      background: url(../img/li_bj.png);
+      background-size: cover;
+      font-family: "微软雅黑"; }
+      /* line 223, xuan.scss */
+      .nav .nav_ul li:last-child {
+        margin-right: 0; }
+
+/* line 230, xuan.scss */
+.daohang {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 5%;
+  top: 12%;
+  background: url(../img/3.png);
+  background-size: contain; }
+  /* line 240, xuan.scss */
+  .daohang .dh {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    color: #fff;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    background: url(../img/5.png);
+    background-size: contain;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 13px;
+    margin-top: 13px; }
+  /* line 256, xuan.scss */
+  .daohang .shun_circle {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 10%;
+    top: 12%;
+    -webkit-animation: shun 2s linear infinite; }
+  /* line 265, xuan.scss */
+  .daohang .nin_circle {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 4%;
+    top: 8%;
+    -webkit-animation: shun 3s linear infinite reverse; }
+
+/*    donghua    */
+@keyframes shun {
+  0% {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg); }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 360deg); } }
+/* line 286, xuan.scss */
+.tapu {
+  width: 350px;
+  height: 350px;
+  position: relative;
+  margin-top: 156px;
+  margin-left: 20px;
+  clear: both;
+  background: url(../img/tp_bj.png) no-repeat;
+  background-size: contain;
+  opacity: 0; }
+  /* line 297, xuan.scss */
+  .tapu .tp_title {
+    width: 100px;
+    height: 35px;
+    background: url(../img/tp_nav.png);
+    background-size: contain;
+    line-height: 35px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    left: -17px;
+    top: -12px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-style: vertical; }
+  /* line 313, xuan.scss */
+  .tapu .tp_list {
+    width: 260px;
+    height: 250px;
+    clear: both;
+    margin-left: 37px; }
+    /* line 320, xuan.scss */
+    .tapu .tp_list .tpList_title {
+      width: 250px;
+      height: 25px;
+      font-size: 12px;
+      background: url(../img/h3.png);
+      background-size: 100% 100%;
+      color: #fff;
+      font-weight: normal;
+      line-height: 25px;
+      padding-left: 10px;
+      position: relative; }
+      /* line 331, xuan.scss */
+      .tapu .tp_list .tpList_title:after {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border: 1px solid #fff;
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 10px; }
+      /* line 342, xuan.scss */
+      .tapu .tp_list .tpList_title .tp_li {
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        line-height: 15px;
+        text-align: center;
+        color: #fff;
+        margin-right: 10px; }
+    /* line 355, xuan.scss */
+    .tapu .tp_list .tp_ol {
+      width: 150px;
+      margin-left: 5px;
+      padding-left: 20px; }
+      /* line 360, xuan.scss */
+      .tapu .tp_list .tp_ol li {
+        width: 220px;
+        height: 30px;
+        background: url(../img/li.png);
+        background-size: 100% 100%;
+        font-size: 8px;
+        color: #fff;
+        white-space: nowrap;
+        line-height: 30px;
+        font-weight: normal;
+        position: relative; }
+        /* line 372, xuan.scss */
+        .tapu .tp_list .tp_ol li span {
+          width: 15px;
+          height: 15px;
+          border: 1px solid #fff;
+          line-height: 15px;
+          text-align: center;
+          border-radius: 50%;
+          display: inline-block;
+          margin-left: 10px;
+          margin-right: 10px; }
+        /* line 384, xuan.scss */
+        .tapu .tp_list .tp_ol li:after {
+          content: "";
+          width: 8px;
+          height: 8px;
+          border: 1px solid #fff;
+          display: inline-block;
+          position: absolute;
+          right: 12px;
+          top: 10px; }
+  /* line 399, xuan.scss */
+  .tapu .tp_hide {
+    display: none; }
+
+/*# sourceMappingURL=xuan.css.map */

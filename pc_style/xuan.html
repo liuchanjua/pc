@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/xuan.css">
+	<style>
+		*{
+			margin:0;padding:0;
+		}
+
+		li{
+			list-style: none;
+		}
+
+		.select{
+			width:100px;
+			height:30px;
+			background:red;
+			float: left;
+			margin-left: 10px;
+			margin-top: 20px;
+			position: relative;
+		}
+
+		/* i{
+			width:0px;
+			height: 0px;
+			border:8px solid transparent;
+			border-top-color:#fff;
+			display: inline-block;
+			position: absolute;
+			right: 10px;
+			top:10px;
+		}
+		
+		 .select i.up{
+			border-top-color: transparent;
+			border-bottom-color: #fff;
+			margin-top:-8px;
+			
+		}  */
+
+		.select i{
+			background: url(img/san.png);
+			background-size: contain;
+			display: inline-block;
+			position: absolute;
+			right: 10px;
+			top:5px;
+			width: 20px;
+			height: 20px;
+		}
+
+		.select{
+			width:210px;
+			height:25px;
+			cursor: pointer;
+			margin-left: 30px;
+			margin-top: 26px;
+			background: url(img/select_bj.png) no-repeat;
+			background-size: 100% 100%;
+			padding-left: 15px;
+			margin-bottom: 10px;
+		}
+
+		.select ul{
+			width:98px;
+			display: none;
+			border:1px solid #ccc;
+		}
+
+		.select ul li{
+			width:100px;
+			height: 20px;
+			line-height: 20px;
+		}
+
+		.select h5{
+			height:30px;
+			line-height: 26px;
+			
+			color: #fff;
+			font-size:8px;
+			font-weight: normal;
+		}
+
+		.select ul li:hover{
+			background:red;
+			color:#fff;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<!-- <img src="img/map.png" alt="" class="map"> -->
+		<nav class="nav">
+			<ul class="nav_ul">
+				<li>首页</li>
+				<li>任务列表</li>
+				<li>资产发现</li>
+				<li>个人账户</li>
+				<li>报告</li>
+				<li>修复</li>
+				<li>网络拍扑</li>
+				<li>日志管理</li>
+				<li>设置</li>
+				<li>工控管理</li>
+			</ul>
+		</nav>
+
+		<div class="daohang">
+			<span class="dh">导航</span>
+			<img src="img/2.png" alt="" class="shun_circle">
+			<img src="img/1.png" alt="" class="nin_circle">
+		</div>
+
+		<div class="tapu">
+			<p class="tp_title">
+				拓扑导航
+			</p>
+			<select name="" id="">
+				<option value="1">下拉内容</option>
+				<option value="2">下拉内容</option>
+				<option value="3">下拉内容</option>
+				<option value="4">下拉内容</option>
+			</select>
+			<div class="tp_list ">
+				<h3 class="tpList_title"><span class="tp_li">+</span>设备树</h3>
+				<ol class="tp_ol tp_hide">
+					<li><span class="tp_li">+</span>huawei-s5700:Eth-Trunk1</li>
+					<li><span class="tp_li">+</span>huawei-s5700:Eth-Trunk1</li>
+					<li><span class="tp_li">+</span>huawei-s5700:Eth-Trunk1</li>
+				</ol>
+				<h3 class="tpList_title"><span class="tp_li">+</span>设备树</h3>
+				<ol class="tp_ol tp_hide">
+					<li><span class="tp_li">+</span>huawei-s5700:Eth-Trunk1</li>
+					<li><span class="tp_li">+</span>huawei-s5700:Eth-Trunk1</li>
+					<li><span class="tp_li">+</span>huawei-s5700:Eth-Trunk1</li>
+				</ol>
+				<h3 class="tpList_title"><span class="tp_li">+</span>设备树</h3>
+				<ol class="tp_ol tp_hide">
+					<li><span class="tp_li">+</span>huawei-s5700:Eth-Trunk1</li>
+					<li><span class="tp_li">+</span>huawei-s5700:Eth-Trunk1</li>
+					<li><span class="tp_li">+</span>huawei-s5700:Eth-Trunk1</li>
+				</ol>
+			</div>
+			
+		</div>
+
+		<div class="bord">
+			
+		</div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/select.js"></script>
+	<script src="js/xuan.js"></script>
+	
+</body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
